@@ -6,7 +6,7 @@ name: Preflight Daily
   pull_request:
     branches: [ main ]
   workflow_dispatch:
-
+permissions: read-all
 jobs:
   preflight-debug-partner:
     runs-on: ubuntu-24.04
